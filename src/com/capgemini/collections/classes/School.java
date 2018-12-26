@@ -1,4 +1,4 @@
-package com.capgemini.collections.school;
+package com.capgemini.collections.classes;
 
 
 public class School 

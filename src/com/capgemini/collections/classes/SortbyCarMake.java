@@ -1,8 +1,8 @@
-package com.capgemini.collections.car;
+package com.capgemini.collections.classes;
 
 import java.util.Comparator;
 
-public class Sortbyname implements Comparator<Car>
+public class SortbyCarMake implements Comparator<Car>
 {
 
 	

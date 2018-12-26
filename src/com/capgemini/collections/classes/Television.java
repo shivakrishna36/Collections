@@ -1,4 +1,4 @@
-package com.capgemini.collections.television;
+package com.capgemini.collections.classes;
 
 
 public class Television 

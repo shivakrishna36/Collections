@@ -1,4 +1,4 @@
-package com.capgemini.collections.car;
+package com.capgemini.collections.classes;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.capgemini.collections.laptop;
+package com.capgemini.collections.classes;
 
 
 public class Laptop 

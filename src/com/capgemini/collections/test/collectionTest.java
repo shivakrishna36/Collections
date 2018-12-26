@@ -1,4 +1,4 @@
-package com.capgemini.collections.laptop;
+package com.capgemini.collections.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
@@ -7,6 +7,8 @@ import java.util.LinkedHashSet;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.capgemini.collections.classes.Laptop;
 
 public class collectionTest 
 {

@@ -1,4 +1,4 @@
-package com.capgemini.collections.car;
+package com.capgemini.collections.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
@@ -8,6 +8,9 @@ import java.util.Collections;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.capgemini.collections.classes.Car;
+import com.capgemini.collections.classes.SortbyCarMake;
 
 public class CarTest 
 {
@@ -75,8 +78,7 @@ public class CarTest
 		list.add(car2);
 		list.add(car3);
 		String name = "[Car [model=nano, year=1998, price=100000, make=Tata], Car [model=nano, year=2002, price=500000, make=Tata], Car [model=camry, year=2002, price=80000, make=Toyota]]";
-		Collections.sort(list, new Sortbyname());
-		System.out.println(list.toString());
+		Collections.sort(list, new SortbyCarMake());
 		assertEquals(name,list.toString());
 	}
 

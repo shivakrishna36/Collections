@@ -1,4 +1,4 @@
-package com.capgemini.collections.cellphone;
+package com.capgemini.collections.test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,6 +6,8 @@ import java.util.LinkedHashSet;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.capgemini.collections.classes.CellPhone;
 
 public class CellPhoneTest 
 {
@@ -20,7 +22,7 @@ public class CellPhoneTest
 	}
 	
 	@Test
-	public void testForCellPhone1() 
+	public void testForCellPhone() 
 	{
 		LinkedHashSet<CellPhone> values = new LinkedHashSet<CellPhone>();
 		values.add(cellPhone1);

@@ -1,4 +1,4 @@
-package com.capgemini.collections.television;
+package com.capgemini.collections.test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,6 +6,8 @@ import java.util.LinkedHashSet;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.capgemini.collections.classes.Television;
 
 public class TelevisionTest 
 {

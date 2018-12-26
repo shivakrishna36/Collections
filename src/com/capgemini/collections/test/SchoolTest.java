@@ -1,4 +1,4 @@
-package com.capgemini.collections.school;
+package com.capgemini.collections.test;
 
 import static org.junit.Assert.*;
 
@@ -6,6 +6,8 @@ import java.util.LinkedHashSet;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.capgemini.collections.classes.School;
 
 public class SchoolTest 
 {

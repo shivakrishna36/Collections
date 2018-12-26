@@ -1,4 +1,4 @@
-package com.capgemini.students;
+package com.capgemini.collections.test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,6 +7,9 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import org.junit.Test;
+
+import com.capgemini.collections.classes.Student;
+import com.capgemini.collections.classes.StudentFruits;
 
 public class StudentsTest
 {

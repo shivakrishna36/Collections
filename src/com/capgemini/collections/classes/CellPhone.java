@@ -1,4 +1,4 @@
-package com.capgemini.collections.cellphone;
+package com.capgemini.collections.classes;
 
 
 public class CellPhone 

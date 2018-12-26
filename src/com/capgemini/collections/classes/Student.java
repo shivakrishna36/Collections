@@ -1,4 +1,4 @@
-package com.capgemini.students;
+package com.capgemini.collections.classes;
 
 import java.util.ArrayList;
 import java.util.Collections;
